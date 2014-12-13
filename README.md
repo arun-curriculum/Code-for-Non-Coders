@@ -171,6 +171,10 @@ How can we find which place "n" is located?
 - [SVN](https://subversion.apache.org/)
 - [Mercurial](http://mercurial.selenic.com/)
 
+##Cloud Platforms and Deployment Infrastructure
+- [Amazon Web Services (AWS)](http://aws.amazon.com/)
+- [Rackspace](http://www.rackspace.com/)
+
 ##Design Your Own Project Lab
 - In this lab you will have the chance to practice your conceptual skills to virtually create the next big startup.
 - Your task is to come up with a great idea in groups and then discuss how it can be implemented with the technologies we have discussed.
