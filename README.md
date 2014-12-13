@@ -34,11 +34,78 @@
 - Datatypes
 - Variables
 - Functions
+	- Return
 - Alerts
 - Arrays
 - Loops - FOR loop
+
+##HTML Tags
+
+#####Tags:
+- Tags allow you to set up your document's structure.
+- Attributes allow you to add additional information to a tag.
+- Attributes also allow you to bridge the gap between HTML and CSS.
+
+#####Div:
+- Divs are like empty rectangles.
+- They help organize content on the page.
+
+```
+<div class="margin-top-20 logo">
+	My Text Inside
+</div>
+```
+
+#####Input:
+- Inputs allow users to enter data to be saved to a database.
+- They come in different forms to facilitate the specific data entry type.
+
+```
+<input type="text" class="form-control" />
+```
+
+#####Select list:
+- Select lists allow users to select options from a dropdown menu.
+
+```
+<select>
+	<option value="USA">United States</option>
+</select>
+```
+
+#####Button:
+- Buttons are HTML elements that give users the ability to submit the data entered as well as transition to new pages.
+
+```
+<button>My Button</button>
+```
+
+#####Linking CSS with HTML
+- CSS creates the look and feel of the website.
+- In order to run external CSS you need to link it to the HTML. This usually goes in the `head` tag:
+
+```
+<link rel="stylesheet" href="css/mystyle.css" />
+```
+
+#####Linking JS with HTML
+- JavaScript enables interaction with the page.
+- In order to run external JS you need to link it to the HTML. This usually goes before the closing `body` tag:
+
+```
+<script src="js/script.js"></script>
+```
+
+##HTML Markup Lab
+- Open the `html_form` folder and open `index.html`.
+- For each comment denoted by `<!-- -->` replace the comment text with the correct HTML as per the instruction to create the form.
+- Alter the CSS file to use a Google Fonts font. You will need to use the `font-family` CSS property.
+- Bonus: Use CSS to change the background color of the page. Experiment with using images as backgrounds as well.
+- Double Bonus: Review the CSS `transition` property documentation and try to create a small animation anywhere on the form. An example may be to highlight a border around a form field when it is clicked.
+
+##JavaScript Game Lab
 - [TicTacToe](https://github.com/arsood/TicTacToe)
-- [Memory game](https://github.com/arsood/Memory)
+- [Memory Game](https://github.com/arsood/Memory)
 
 ##Introduction to Back End Development
 
@@ -90,4 +157,25 @@ Sample array:
 
 How can we find which place "n" is located?
 
-##Introduction to CMS Systems
+##Overview of Mobile App Development
+- Overview of iOS platform and XCode
+- Objective C
+- Swift
+- Overview of Android platform and ADT
+- Java
+- Hybrid apps with jQuery Mobile, Phonegap, and Ionic.
+- API call structure
+
+##Introduction to Version Control Systems
+- [Git](http://git-scm.com/) and [GitHub](https://github.com/)
+- [SVN](https://subversion.apache.org/)
+- [Mercurial](http://mercurial.selenic.com/)
+
+##Design Your Own Project Lab
+- In this lab you will have the chance to practice your conceptual skills to virtually create the next big startup.
+- Your task is to come up with a great idea in groups and then discuss how it can be implemented with the technologies we have discussed.
+- Make sure to:
+	- Discuss idea testing possibilities.
+	- Design simple UX.
+	- List all technologies that you will use.
+	- Create simple goals for development and deployment.
