@@ -21,25 +21,13 @@
 ##UX Design Lab
 - Take a few minutes to research an online business of your choice.
 - Write down at least 5 examples of good UX design, and at least 2 examples of bad UX design / improvements for the product.
-- Present to the class your findings. 
+- Present to the class your findings.
 
-##Introduction to Front End Development
+##Introduction to HTML and CSS
 
 #####HTML and CSS
 - HTML and CSS work together to create the front end structure and design.
 - Front end frameworks and the grid system.
-
-#####JavaScript
-- JavaScript helps with page interactions such as animations and dynamic loading of content.
-- Datatypes
-- Variables
-- Functions
-	- Return
-- Alerts
-- Arrays
-- Loops - FOR loop
-
-##HTML Tags
 
 #####Tags:
 - Tags allow you to set up your document's structure.
@@ -102,6 +90,18 @@
 - Alter the CSS file to use a Google Fonts font. You will need to use the `font-family` CSS property.
 - Bonus: Use CSS to change the background color of the page. Experiment with using images as backgrounds as well.
 - Double Bonus: Review the CSS `transition` property documentation and try to create a small animation anywhere on the form. An example may be to highlight a border around a form field when it is clicked.
+
+##Introduction to JavaScript
+
+#####JavaScript
+- JavaScript helps with page interactions such as animations and dynamic loading of content.
+- Datatypes
+- Variables
+- Functions
+	- Return
+- Alerts
+- Arrays
+- Loops - FOR loop
 
 ##JavaScript Game Lab
 - [TicTacToe](https://github.com/arsood/TicTacToe)
