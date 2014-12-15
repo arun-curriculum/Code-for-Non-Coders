@@ -93,7 +93,7 @@
 
 ##Introduction to JavaScript
 
-JavaScript helps with page interactions such as animations and dynamic loading of content.
+JavaScript helps with page interactions such as animations and dynamic loading of content. Let's take a look at a few aspects of the language.
 
 #####Strings
 
