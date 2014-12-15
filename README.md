@@ -93,15 +93,86 @@
 
 ##Introduction to JavaScript
 
-#####JavaScript
-- JavaScript helps with page interactions such as animations and dynamic loading of content.
-- Datatypes
-- Variables
-- Functions
-	- Return
-- Alerts
-- Arrays
-- Loops - FOR loop
+JavaScript helps with page interactions such as animations and dynamic loading of content.
+
+#####Strings
+
+Strings are simply pieces of text denoted by quotation marks. An example may be:
+
+```
+"Hello World!"
+```
+
+#####Integers
+
+Integers are simply whole numbers without any decimals. An example may be `45` or `2`.
+
+#####Variables
+
+Variables allow us to represent information by a specific set of characters. Therefore we do not have to keep typing the same code over and over:
+
+```
+var saying = "Hello World!";
+
+alert(saying);
+```
+
+#####Arrays
+
+Arrays allow us to be able to store a set of data in one place. Let's say we want to look up information about a particular user. An array of a user's information may look like this:
+
+```
+var arun = ["Arun", "Instructor", 27, "San Francisco"];
+```
+
+We can access pieces of this information through the index value:
+
+- First Name: `arun[0]`
+- Age: `arun[2]`
+
+#####Functions
+
+Functions allow us to write code once and call it a number of times throughout our program. This helps us keep code maintainable and also helps to make it dynamic.
+
+```
+function sayHello() {
+	alert("Hello World!");
+}
+```
+
+We can also pass in data to perform a dynamic operation:
+
+```
+function addTwo(num1, num2) {
+	alert(num1 + num2);
+}
+```
+
+When using JavaScript to perform operations, you may need to `return` the data outside of the function. You can do this like so:
+
+```
+function addTwo(num1, num2) {
+	return num1 + num2;
+}
+```
+
+To call a function after it is written, you refer to it by its name:
+
+```
+sayHello();
+
+addTwo(1, 2);
+```
+
+#####Loops
+
+Loops allow you to perform an operation a set number of times. This is very widely used in most programming languages. A simple `for` loop can be written like this:
+
+```
+for (var i = 0; i < 20; i++) {
+	console.log(i);
+}
+```
 
 ##JavaScript Game Lab
 - [TicTacToe](https://github.com/arsood/TicTacToe)
