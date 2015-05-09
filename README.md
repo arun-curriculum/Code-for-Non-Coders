@@ -108,7 +108,7 @@ CSS
 }
 ```
 
-- **The main difference between classes and IDs is that classes can be used multiple times in the HTML document whereas IDs should only be used once.**
+> **The main difference between classes and IDs is that classes can be used multiple times in the HTML document whereas IDs should only be used once.**
 
 #####Linking CSS with HTML
 - In order to run external CSS you need to link it to the HTML. This usually goes in the `head` tag:
