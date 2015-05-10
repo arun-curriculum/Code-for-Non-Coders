@@ -269,6 +269,8 @@ Sample array:
 
 How can we find which place "n" is located?
 
+Bonus: Solve the algorithm with a JavaScript function. You will have to look up [if-else statements](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else) to accomplish this.
+
 ##Overview of Mobile App Development
 - Overview of iOS platform and XCode
 - Objective C
